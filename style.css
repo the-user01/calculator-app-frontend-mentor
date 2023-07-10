@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(224, 36%, 15%);
+}
+
+/* Main Section */
+
+.main{
+    width: 600px;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Heading Section */
+
+.heading-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-btn{
+    display: flex;
+}
+
+.theme-btn p{
+    margin-right: 7px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.theme{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 37px;
+}
+
+.dot{
+    height: 9px;
+    width: 9px;
+    border: 1px solid hsl(25, 98%, 40%);
+    background-color: hsl(25, 98%, 40%);
+    border-radius: 50px;
+    position: relative;
+    top: 4.7px;
+    left: 15px;
+}
+
+.theme h4{
+    position: relative;
+    bottom: 13px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.theme input{
+    width: 40px;
+    height: 12px;
+    border-radius: 35px;
+    background-color: hsl(222, 26%, 31%);
+    border: none;
+}
+
+
+/* Number input filed section */
+
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.number-input{
+    height: 80px;
+    width: 560px;
+    position: relative;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+/* Digit Section */
+
+
+.digit-sec{
+    border-radius: 5px;
+    background-color: hsl(222, 26%, 31%);
+    padding: 10px 0 10px 37px;
+}
+
+.digits{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.digit-sec button{
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: hsl(221, 14%, 31%);
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 1px 1px 1px hsl(28, 16%, 65%);
+    text-shadow: 1px 1px hsl(224, 28%, 35%);
+    font-weight: 800;
+    border: none;
+}
+
+#equal-btn{
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 1px 1px 1px hsl(6, 70%, 34%);
+}
+
+.digit-sec button:hover{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 1px 1px 1px hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.last-digits button{
+    height: 40px;
+    width: 230px;
+    margin-left: 16px;
+}
